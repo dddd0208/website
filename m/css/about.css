@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+#container{
+    padding-top:15%;;
+    font-size:0.83vw;
+}
+.mainBanner{
+    width:100%;
+    margin: 0 auto;
+}
+.mainBanner p{
+    text-align: center;
+    margin:165px 0;
+    font-size:2vw;
+}
+
+.bannerImg{
+    width:100%;
+    position: relative;
+}
+.bannerImg img{
+    display: block;
+    width:100%;
+}
+.bannerImg span{
+    font-size:4vw;
+    color:#fff;
+    position: absolute;
+    text-shadow: -1px 1px #277c70;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mainBanner p{
+    text-align: center;
+    margin:15% 0;
+    font-size:2vw;
+}
+
+
+/*maincon01*/
+.mainCon01{
+    background:url(/images/sub/about_mainCon01_img01.png)no-repeat center center;
+    background-size:cover;
+    width:100%;
+    color:#fff;
+    position: relative;
+    overflow: hidden;
+    
+}
+.mainCon01 h2{
+    font-size:9vw;
+    margin-top:10%;
+}
+.con01Top{
+    text-align: center;
+}
+.con01Top p{
+    font-size:2vw;
+    margin:10% 0;
+}
+.con01Bottom{
+    text-align: center;
+}
+.mainCon01 div{
+    text-align: center;
+    vertical-align: top;
+}
+.con01Text{
+    width:100%;
+    text-align: center;
+}
+.con01Text span{
+    font-weight:bold;
+    font-size:6vw;
+}
+.info{
+    line-height:250%;
+    margin-bottom: 10%;
+}
+.info li{
+    font-size:1.6vw;
+    line-height: 210%;
+}
+.use{
+    text-align: center;
+    line-height: 55px;
+    margin-bottom: 10%;
+}
+.use li:first-child{
+    display:block;
+    font-weight:600;
+    margin-right: 0;
+}
+.use li{
+    display: inline-block;
+    margin-right: 1%;
+}
+.motto{
+    margin-bottom: 10%;
+    line-height:40px;
+}
+.motto li:last-child{
+    background:url(/images/sub/about_mainCon01_img06.png)no-repeat left top;
+    font-size:1.6vw;
+}
+/*maincon01*/
+/*maincon02*/
+.mainCon02{
+    box-sizing: border-box;
+    width:100%;
+}
+.mainCon02 img{
+    display:inline-block;
+    background: #555;
+    vertical-align: middle;
+    width:100%;
+}
+.mainCon02 p{   
+    display:inline-block;
+    width:100%;
+    margin: 8% 0;
+    font-size:1.6vw;
+    line-height:210%;
+    text-align: center;
+}
+.mainCon02 p span{
+    font-size:0.9vw;
+    color:#176935;
+    display:inline-block;
+}
+/*maincon02*/

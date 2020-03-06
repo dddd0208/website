@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+        <title>포트폴리오</title>
+        <link rel="stylesheet" type="text/css" href="/m/css/default.css">
+        <link rel="stylesheet" type="text/css" href="/m/css/include.css">
+        <link rel="stylesheet" type="text/css" href="css/slick.css">
+        <link rel="stylesheet" type="text/css" href="css/fullpage.min.css">
+        <link rel="stylesheet" type="text/css" href="/m/css/main.css">
+        
+        
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="js/fullpage.min.js"></script>
+    </head>
+    <body>
+    <!--전체시작-->
+        <div id="warp">
+            <!--헤더시작-->
+            <header id="header" class="cf">
+                <h1><a href="#">로고</a></h1>
+                <div class="menu cf">
+                    <span onclick="openNav()"> &#9776; </span>
+                </div>
+                <!--사이드메뉴-->
+                <div id="sideMenu"class="gnb">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="/m/index.html">Home</a>
+                    <a href="/m/sub/about.html">About</a>
+                    <a href="/m/sub/works.html">Works</a>
+                    <a href="/m/sub/contact.html">Contact</a>
+                </div>
+                <!--사이드메뉴-->
+            </header>
+            <!--헤더끝-->
+            <!--컨테이너시작-->
+            <div id="container" class="cf">
+                <div id="fullpage">
+                    <!--mainCon01-->
+                    <div class="mainCon01 section" id="section0">
+                        <div class="mainConText">
+                            <h2>How are you?</h2>
+                            <span>I'm fine thank you, And you?</span>
+                        </div>
+                        <p class="portfolio">PORTFOLIO</p>
+                    </div>
+                    <!--mainCon01-->
+                    <!--mainCon02-->
+                    <div class="mainCon02 section" id="section1">
+                        <div class="slide active">
+                            <div class="mainConText01">
+                                <h2>How are you?</h2>
+                                <span>I'm fine thank you, And you?</span>
+                            </div>
+                            <p class="portfolio">PORTFOLIO</p>
+                        </div>
+                        <div class="slide">
+                            <div class="mainConText03">
+                                <h2>How are you?</h2>
+                                <span>I'm fine thank you, And you?</span>
+                            </div>
+                            <p class="portfolio">PORTFOLIO</p>
+                        </div>
+                        <div class="slide">
+                            <div class="mainConText03">
+                                <h2>How are you?</h2>
+                                <span>I'm fine thank you, And you?</span>
+                            </div>
+                            <p class="portfolio">PORTFOLIO</p>
+                        </div>
+                    </div>
+                    <!--mainCon02-->
+                    <!--mainCon03-->
+                    <div class="mainCon03 section" id="section2">
+                        <div class="mainConText">
+                            <h2>How are you?</h2>
+                            <span>I'm fine thank you, And you?</span>
+                        </div>
+                        <p class="portfolio">PORTFOLIO</p>
+                    </div>
+                    <!--mainCon03-->
+                </div>
+            </div>
+            <!--컨테이너끝-->
+        </div>
+        <!--전체끝-->
+        <!--스크립트-->
+        <script type="text/javascript">
+            /*사이드메뉴*/
+            function openNav() {
+              document.getElementById("sideMenu").style.width = "100%";
+            }
+            function closeNav() {
+              document.getElementById("sideMenu").style.width = "0";
+            }
+            /*사이드메뉴*/
+            /*심플*/
+            var myFullpage = new fullpage('#fullpage', {
+                sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff']
+            });
+            /*심플*/
+            
+        </script>
+        <!--스크립트-->
+    </body>
+</html>

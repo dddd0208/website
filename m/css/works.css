@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+#container{
+    padding-top:15%;;
+    font-size:0.83vw;
+}
+.mainBanner{
+    width:100%;
+    margin: 0 auto;
+}
+.mainBanner p{
+    text-align: center;
+    margin:165px 0;
+    font-size:2vw;
+}
+
+.bannerImg{
+    width:100%;
+    position: relative;
+}
+.bannerImg img{
+    display: block;
+    width:100%;
+}
+.bannerImg span{
+    font-size:4vw;
+    color:#fff;
+    position: absolute;
+    text-shadow: -1px 1px #c5c5c5;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mainBanner p{
+    text-align: center;
+    margin:15% 0;
+    font-size:2vw;
+}
+/*mainCon*/
+.mainCon01{
+    width:100%;
+    margin-bottom:20%;
+}
+.con01{
+    width:100%;
+}
+.con01 img{
+    width:50%;
+    float:left;
+}
+.con01 .conText li:last-child{
+    margin-top:7%;
+}
+.con02 img{
+    width:50%;
+    float:right;
+}
+.con02 .conText li:last-child{
+    margin-top:15%;
+}
+.con02Text{
+    float:left;
+}
+.conText{
+    width:50%;
+    height:100%;
+    float:left;
+    padding-left: 2%;
+    box-sizing:border-box;
+    background-color: rgba(23, 105, 53, 0.3);
+}
+.conText li:first-child{
+    font-weight:600;
+    font-size:3vw;
+    margin-top:0;
+}
+.conText li:last-child{
+    margin-top:14%;
+}
+.conText li{
+    margin:5% 0;
+}
+.con03 img{
+    width:50%;
+    float:left;
+}
+.moreBtn{
+    display:inline-block;
+}
+.moreBtn{
+    width:65%;
+    background: #555;
+    text-align: center;
+    margin-bottom: 0;
+    border-radius: 60%;
+}
+.moreBtn a{
+    display:block;
+    color:#fff;
+    font-size:16px;
+    line-height:20px;
+}

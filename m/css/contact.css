@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+#container{
+    padding-top:15%;;
+    font-size:0.83vw;
+}
+.mainBanner{
+    width:100%;
+    margin: 0 auto;
+}
+.mainBanner p{
+    text-align: center;
+    margin:165px 0;
+    font-size:2vw;
+}
+
+.bannerImg{
+    width:100%;
+    position: relative;
+}
+.bannerImg img{
+    display: block;
+    width:100%;
+}
+.bannerImg span{
+    font-size:4vw;
+    color:#fff;
+    position: absolute;
+    text-shadow: -1px 1px #0b0e6b;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mainBanner p{
+    text-align: center;
+    margin:15% 0;
+    font-size:2vw;
+}
+/*con01*/
+.mainCon01{
+    width:100%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.mainCon01 img{
+    width:50%;
+}
+.mainCon01 ul{}
+.mainCon01 ul li{
+    line-height: 310%;
+    font-size:3vw;
+}
+.sendBox input{
+    width:30%;
+    font-size:3vw;
+    margin: 2% 0;
+    text-align: center;
+}
+.sendBox input:last-child{
+    width:10%;
+}
+.sendBox textarea{
+    width:60%;
+    resize: none;
+    font-size: 3vw;
+}
+.sendBox p{
+    font-size:3vw;
+}
+.sendBtn submit{}
